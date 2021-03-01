@@ -8,10 +8,16 @@ public class MouseLook : MonoBehaviour
     public Transform playerBody;
     float xRotation = 0f;
 
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
     // Update is called once per frame
     void Update()
     {
-        //if (Input.GetKeyDown("l")) Cursor.lockState = CursorLockMode.Locked;
+        if (Input.GetKey(KeyCode.L))
+            Cursor.lockState = CursorLockMode.None;
 
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
