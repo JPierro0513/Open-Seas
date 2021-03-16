@@ -4,3 +4,8 @@ railings
 woodworking/crafts table
 maps
 cabin
+
+Track:
+    Food
+    Money
+    Wood *Maybe*
