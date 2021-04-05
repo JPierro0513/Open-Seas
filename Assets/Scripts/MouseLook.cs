@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace Yarn.Unity.Example {
 public class MouseLook : MonoBehaviour
 {
     public float mouseSensitivity = 100f;
@@ -16,8 +17,11 @@ public class MouseLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.L))
+        if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
+        {
             Cursor.lockState = CursorLockMode.None;
+            return;
+        }
 
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
@@ -28,4 +32,5 @@ public class MouseLook : MonoBehaviour
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
     }
+}
 }

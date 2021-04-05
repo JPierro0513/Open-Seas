@@ -1,0 +1,162 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Open Seas\nWizard of Oz Prototype: Relationship System\n[[Begin|Opening]]",
+		"position": {
+			"x": -955,
+			"y": 1610
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Opening",
+		"tags": "",
+		"body": "<<set $LR to 0>>\n<<set $SentLucyCalm to false>>\n<<set $SentLucyAngry to false>>\n<<set $SentJaime to false>>\nLucy: Come on now, get off your arses, we've got work to do! \n\nLucy: Don't look at me like that sailor, you signed up for this, you gotta work for it. \n\nLucy: Thata boy, Reyes needs some supplies, so get lugging. As for you- \n\nLucy: Oh, hey boss! Whattya need?\n\n[[You're taking your job seriously|IndirectOpening]]\n[[The crew needs a break sometimes, I need you to cool off|DirectOpening]]",
+		"position": {
+			"x": -966,
+			"y": 1870
+		},
+		"colorID": 0
+	},
+	{
+		"title": "IndirectOpening",
+		"tags": "",
+		"body": "Lucy: Course I am! It's a big deal, in't? I'm working for you now, right boss? I mean, not that I weren't before, but- \n\nLucy: I just mean, they gotta respect me now, right?\n\n[[Why do you respect me?|IndirectAgain]]\n[[They need a break sometimes too though. You don't need to be that hard on them|DirectOpening]]",
+		"position": {
+			"x": -1164,
+			"y": 2135
+		},
+		"colorID": 0
+	},
+	{
+		"title": "DirectOpening",
+		"tags": "",
+		"body": "<<set $LR to $LR + 1>>\nLucy appreciated that.\n\nLucy: Oh, yeah, sure. Sorry about that, I guess I'm just excited. \n\nLucy: Before this, I was just- I was Hewitt, just one of them. If I'm gonna be more than that, I mean I'm third in line, right? That's a lotta responsibility.\n\n[[You've earned it|Praise]]\n[[You sure you can handle it?|Question]]",
+		"position": {
+			"x": -873,
+			"y": 2134
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Praise",
+		"tags": "",
+		"body": "<<set $LR to $LR + 1>>\nLucy looks pleased.\n\nLucy: Thanks, boss. I won't let you down. What'd you need?\n\n[[Captain Blakely wanted me to have a word with you.|ConvoStart]]",
+		"position": {
+			"x": -937,
+			"y": 2454
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Question",
+		"tags": "",
+		"body": "<<set $LR to $LR - 1>>\nLucy looks frustrated.\n\nLucy: Of course I can handle it! It'll be fine, I'll make it work through sheer force of will or somethin. What'd you need anyway?\n\n[[Captain Blakely wanted me to have a word with you.|ConvoStart]]",
+		"position": {
+			"x": -692,
+			"y": 2442
+		},
+		"colorID": 0
+	},
+	{
+		"title": "IndirectAgain",
+		"tags": "",
+		"body": "<<set $LR to $LR - 1>>\nLucy is uncomfortable.\n\nLucy: What? You've always been honest with me I guess, you've never treated me like a kid. Anyway, what'd you need?\n\n[[Captain Blakely wanted me to have a word with you.|ConvoStart]]",
+		"position": {
+			"x": -1173,
+			"y": 2427
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ConvoStart",
+		"tags": "",
+		"body": "<<set $LR to $LR - 1>>\nLucy looks frustrated.\n\nLucy: Well you can tell him I don't need a damn nursemaid, alright? \n\nLucy: This is about that parley, in't it? I knew he thought I couldn't handle it, let me have a word with that pompous arse.\n\n[[He just wants me to brief you on the details, it's nothing personal.|Brief]]\n[[If this is how you handle me talking to you, how're you going to do in a parley?|Accusation]]",
+		"position": {
+			"x": -951,
+			"y": 2761
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Brief",
+		"tags": "",
+		"body": "Lucy: Like hell it isn't personal.\n\nLucy: Fine, I'm fine. What do ya need to tell me about the damn parley?\n\n[[It's not a big deal, but the captain of the Monmouth has insisted on being there.|Monmouth]]",
+		"position": {
+			"x": -1099,
+			"y": 3036
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Accusation",
+		"tags": "",
+		"body": "Lucy: I can be diplomatic! I know how to keep my mouth shut when I have to. \n\nLucy: Goddamit, let me talk to Blakely, he doesn't get to just put you up to this, he'll be sorry once I'm through with him.\n\n[[Stare Pointedly|Stare]]",
+		"position": {
+			"x": -827,
+			"y": 3035
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Monmouth",
+		"tags": "",
+		"body": "Lucy: ...and I suppose you want me not to stab him, right?\n\n[[That would be preferable, yes.|yes]]",
+		"position": {
+			"x": -979,
+			"y": 3561
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Stare",
+		"tags": "",
+		"body": "Lucy: Oh. Right. Eh, I suppose you might have a point.\n\n<<set $LR to $LR + 1>>\nLucy looks mildly contrite.\n\nLucy: Alright, what do you need me to do?\n\n[[It's not a big deal, but the captain of the Monmouth has insisted on being there.|Monmouth]]",
+		"position": {
+			"x": -839,
+			"y": 3303
+		},
+		"colorID": 0
+	},
+	{
+		"title": "yes",
+		"tags": "",
+		"body": "<<if $LR > 1>>\nLucy: For the greater good and all that? Damn, I hate that.\n\nLucy: Long as he doesn't try and put a ball in another one of our crew, I'll be civil with him. And he better not get within a few yards of me, or I will carve his face up like-\n\nLucy: Maybe you should send Jaime. I, uh- I don't know whether I'm ready to face him yet. I'm sorry.\n\n[[It's alright, Lucy. We take care of our own. Jaime can go.|Send.Jaime]]\n[[You can handle this. He touches you again, you have my full permission to engage.|Send.Lucy]]\n<<elseif $LR > 0>>\nLucy: For the greater good and all that? Damn, I hate that.\n\nLucy: Long as he doesn't try and put a ball in another one of our crew, I'll be civil with him. And he better not get within a few yards of me, or I will carve his face up like-\n\nLucy: Sorry. I can handle it. Just have to let off a little steam before hand. And maybe some after.\n\n[[Alright, good luck.|Send.Lucy]]\n[[Maybe this is too raw. I'll let Jaime handle it instead.|Send.Jaime]]\n<<elseif $LR <= 0>>\nLucy: I hate working with snakes like him! We're supposed to be better than the Brits, but no we have to parley with them like they were just another pirate. It wasn't supposed to be like this.\n\nLucy: Fine. Long as he doesn't try and put a ball in another one of our crew, I'll be civil with him. And he better not get within a few yards of me, or I will carve his face up like-\n\nLucy: Sorry. I can handle it. Just have to let off a little steam before hand. And maybe some after.\n\n[[Alright, good luck.|Send.Lucy]]\n[[Maybe this is too raw. I'll let Jaime handle it instead.|Send.Jaime]]\n<<endif>>",
+		"position": {
+			"x": -980,
+			"y": 3875
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Send.Jaime",
+		"tags": "",
+		"body": "<<if $LR > 1>>\nLucy: Thanks, boss. I, uh- I really appreciate it.\n<<set $LR to $LR + 3>>\n<<elseif $LR > 0>>\nLucy: Yeah, maybe that'd be better. Just don't hold out on me on the difficult stuff, alright? I can handle it.\n<<set $LR to $LR + 1>>\n<<elseif $LR <= 0>>\nLucy: Fine, I'd rather be punching something anyway. Dammit.\n<<set $LR to $LR - 1>>\n<<endif>>\n<<set $SentJaime to true>>\n[[Results]]",
+		"position": {
+			"x": -1144,
+			"y": 4135
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Send.Lucy",
+		"tags": "",
+		"body": "<<if $LR > 1>>\nLucy: If you're sure, boss. I, uh- I appreciate the vote of confidence.\n<<set $LR to $LR + 3>>\n<<set $SentLucyCalm to true>>\n<<elseif $LR > 0>>\nLucy: I won't let you down, boss.\n<<set $LR to $LR + 3>>\n<<set $SentLucyCalm to true>>\n<<elseif $LR <= 0>>\nLucy: I won't let you down, boss.\n<<set $LR to $LR + 3>>\n<<set $SentLucyAngry to true>>\n<<endif>>\n[[Results]]",
+		"position": {
+			"x": -725,
+			"y": 4130
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Results",
+		"tags": "",
+		"body": "<<if $SentLucyCalm is true>>\nLucy manages to keep her head, and negotiates the parley well. She comes back a little shaken by her experience, but seems a little more confident in her leadership ability.\n<<set $LR to $LR + 1>>\n<<elseif $SentLucyAngry is true>>\nLucy loses her temper, and the parley dissolves into a fire fight. Your crew manages to escape with only minor injuries, but the parley is a failure.\n<<elseif $SentJaime is true>>\nJaime negotiates the parley wonderfully on your behalf.\n<<endif>>\n<<if $LR < 0>>\nAfter this conversation, Lucy trusts you less.\n<<elseif $LR == 0>>\nAfter this conversation, Lucy's trust in you is unchanged.\n<<elseif $LR > 3>>\nAfter this conversation, Lucy trusts you much more.\n<<elseif $LR > 0>>\nAfter this conversation, Lucy trusts you more.\n<<endif>>\nThis section would not be in the normal game, it merely demonstrates the results of your conversation.\n[[Try again?|Start]]",
+		"position": {
+			"x": -924,
+			"y": 4451
+		},
+		"colorID": 0
+	}
+]
