@@ -1,0 +1,23 @@
+title: Mateo
+tags: 
+colorID: 0
+position: -1249,1286
+---
+Mateo: I hope you like the captain! He's very important.
+[[I do.|I.do]]
+[[I don't.|I.dont]]
+===
+title: I.do
+tags: 
+colorID: 0
+position: -1338,1547
+---
+Mateo: Good. We'll get along fine.
+===
+title: I.dont
+tags: 
+colorID: 0
+position: -1056,1542
+---
+Mateo: We won't get along.
+===

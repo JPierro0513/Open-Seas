@@ -10,7 +10,7 @@ namespace Yarn.Unity.Example {
 
         public float speed = 12f;
         public float gravity = -9.8f;
-        public float interactionRadius = 2.0f;
+        public float interactionRadius = 4.0f;
 
         public Transform groundCheck;
         public float groundDistance = 0.4f;

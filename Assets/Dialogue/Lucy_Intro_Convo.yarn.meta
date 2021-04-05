@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b08b115675bc1ba46adfd3b84da9ac09
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Lucy_Intro_Convo-Lucy-0
+  - Lucy_Intro_Convo-Lucy-1
+  - Lucy_Intro_Convo-Lucy-2
+  - Lucy_Intro_Convo-Encourage-3
+  - Lucy_Intro_Convo-Discourage-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

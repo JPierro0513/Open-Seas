@@ -1,0 +1,23 @@
+title: Nkiru
+tags: 
+colorID: 0
+position: -1297,1238
+---
+Nkiru: This cannon is broken.
+[[Help Nkiru|Help.Nkiru]]
+[[Move On|Move.On]]
+===
+title: Help.Nkiru
+tags: 
+colorID: 0
+position: -1416,1503
+---
+Nkiru: I appreciate it.
+===
+title: Move.On
+tags: 
+colorID: 0
+position: -1123,1499
+---
+Nkiru: Say hello to the rest of the crew for me.
+===

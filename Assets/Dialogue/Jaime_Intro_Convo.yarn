@@ -1,0 +1,23 @@
+title: Jaime
+tags: 
+colorID: 0
+position: -1521,1101
+---
+Jaime: It's a beautiful day! How are the rest of the crew?
+[[They're alright.|Alright]]
+[[You're suspicious|Suspicious]]
+===
+title: Alright
+tags: 
+colorID: 0
+position: -1620,1350
+---
+Jaime: Wonderful! Keep me informed.
+===
+title: Suspicious
+tags: 
+colorID: 0
+position: -1294,1364
+---
+Jaime: Well that's not very polite.
+===

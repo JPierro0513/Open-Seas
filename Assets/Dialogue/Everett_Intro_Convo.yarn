@@ -1,0 +1,23 @@
+title: Everett
+tags: 
+colorID: 0
+position: -1618,836
+---
+Everett: Oh, hello Quartermaster. I'm afraid I'm very busy at the moment, you'll have to confer with me at a later time.
+[[Insist]]
+[[Accept]]
+===
+title: Insist
+tags: 
+colorID: 0
+position: -1735,1097
+---
+Everett: Oh very well, if you look at this map here you'll find what you're looking for. Good day.
+===
+title: Accept
+tags: 
+colorID: 0
+position: -1456,1094
+---
+Everett: Good day, Quartermaster.
+===

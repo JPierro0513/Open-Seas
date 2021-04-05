@@ -13734,7 +13734,7 @@ Transform:
   - {fileID: 2130904752}
   - {fileID: 1406196366}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &215526570
 MonoBehaviour:
@@ -16613,7 +16613,7 @@ PrefabInstance:
     - target: {fileID: 8245181055515182852, guid: 4ec3df5875e7347beb6176b545b8fb39,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8245181055515182852, guid: 4ec3df5875e7347beb6176b545b8fb39,
         type: 3}
@@ -19734,6 +19734,7 @@ GameObject:
   - component: {fileID: 332797208}
   - component: {fileID: 332797207}
   - component: {fileID: 332797206}
+  - component: {fileID: 332797210}
   m_Layer: 0
   m_Name: Mataeo
   m_TagString: Untagged
@@ -19816,6 +19817,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &332797210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332797205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b23c33df46a25f49b2be7cf5194c32b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Mateo
+  talkToNode: Mateo
+  scriptToLoad: {fileID: 2480198943629176163, guid: 037e72d5bac98b84cbaff3fc00eeaaf5,
+    type: 3}
 --- !u!1 &333991413
 GameObject:
   m_ObjectHideFlags: 0
@@ -40515,6 +40532,7 @@ GameObject:
   - component: {fileID: 713800667}
   - component: {fileID: 713800666}
   - component: {fileID: 713800665}
+  - component: {fileID: 713800669}
   m_Layer: 0
   m_Name: Nkiru
   m_TagString: Untagged
@@ -40597,6 +40615,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &713800669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713800664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b23c33df46a25f49b2be7cf5194c32b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Nkiru
+  talkToNode: Nkiru
+  scriptToLoad: {fileID: 2480198943629176163, guid: 2909f31af562ac44091fb4c7d5aad4a6,
+    type: 3}
 --- !u!1 &716706917
 GameObject:
   m_ObjectHideFlags: 0
@@ -57759,7 +57793,7 @@ MonoBehaviour:
   controller: {fileID: 957298780}
   speed: 12
   gravity: -19.6
-  jumpHeight: 3
+  interactionRadius: 2
   groundCheck: {fileID: 1034426882}
   groundDistance: 0.4
   groundMask:
@@ -68244,6 +68278,7 @@ GameObject:
   - component: {fileID: 1099646136}
   - component: {fileID: 1099646135}
   - component: {fileID: 1099646134}
+  - component: {fileID: 1099646138}
   m_Layer: 0
   m_Name: Jaime
   m_TagString: Untagged
@@ -68326,6 +68361,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1099646138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099646133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b23c33df46a25f49b2be7cf5194c32b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Jaime
+  talkToNode: Jaime
+  scriptToLoad: {fileID: 2480198943629176163, guid: 46848715bb210c54a86e68566893a2ce,
+    type: 3}
 --- !u!1 &1099693628
 GameObject:
   m_ObjectHideFlags: 0
@@ -71848,7 +71899,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1163403640
 GameObject:
@@ -78301,6 +78352,117 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286152595}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1287417728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1287417733}
+  - component: {fileID: 1287417732}
+  - component: {fileID: 1287417731}
+  - component: {fileID: 1287417730}
+  - component: {fileID: 1287417729}
+  m_Layer: 0
+  m_Name: Pierce
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1287417729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287417728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b23c33df46a25f49b2be7cf5194c32b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Pierce
+  talkToNode: Pierce
+  scriptToLoad: {fileID: 2480198943629176163, guid: 023631426475ee44985ecc634892e50b,
+    type: 3}
+--- !u!136 &1287417730
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287417728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1287417731
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287417728}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1287417732
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287417728}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1287417733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287417728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 153.04, y: 17.21, z: 28.4}
+  m_LocalScale: {x: 1.2, y: 1.8, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1287682908
 GameObject:
   m_ObjectHideFlags: 0
@@ -95849,6 +96011,7 @@ GameObject:
   - component: {fileID: 1563509638}
   - component: {fileID: 1563509637}
   - component: {fileID: 1563509636}
+  - component: {fileID: 1563509640}
   m_Layer: 0
   m_Name: Everett
   m_TagString: Untagged
@@ -95931,6 +96094,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1563509640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563509635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b23c33df46a25f49b2be7cf5194c32b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Everett
+  talkToNode: Everett
+  scriptToLoad: {fileID: 2480198943629176163, guid: 19ee7512261a4cb41be10d7d996e70df,
+    type: 3}
 --- !u!1 &1568885947
 GameObject:
   m_ObjectHideFlags: 0
@@ -104325,7 +104504,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Lucy
   talkToNode: Lucy
-  scriptToLoad: {fileID: 0}
+  scriptToLoad: {fileID: 2480198943629176163, guid: b08b115675bc1ba46adfd3b84da9ac09,
+    type: 3}
 --- !u!1 &1744737022
 GameObject:
   m_ObjectHideFlags: 0

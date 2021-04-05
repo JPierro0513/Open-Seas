@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 023631426475ee44985ecc634892e50b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Pierce_Intro_Convo-Pierce-0
+  - Pierce_Intro_Convo-Pierce-1
+  - Pierce_Intro_Convo-Pierce-2
+  - Pierce_Intro_Convo-Elaborate-3
+  - Pierce_Intro_Convo-I.understand-4
+  - Pierce_Intro_Convo-I.do-5
+  - Pierce_Intro_Convo-I.don't-6
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 023631426475ee44985ecc634892e50b,
+    type: 3}
+  localizations: []
