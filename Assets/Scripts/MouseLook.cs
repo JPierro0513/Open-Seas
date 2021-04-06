@@ -9,9 +9,11 @@ public class MouseLook : MonoBehaviour
     public Transform playerBody;
     float xRotation = 0f;
 
+    public GameObject crosshairUI;
+
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
@@ -20,6 +22,7 @@ public class MouseLook : MonoBehaviour
         if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
         {
             Cursor.lockState = CursorLockMode.None;
+            crosshairUI.SetActive(false);
             return;
         }
         else

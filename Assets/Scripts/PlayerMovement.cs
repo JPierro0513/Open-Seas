@@ -7,6 +7,8 @@ namespace Yarn.Unity.Example {
     {
 
         public UnityEngine.CharacterController controller;
+        public GameObject player;
+        public GameObject popupUI;
 
         public float speed = 12f;
         public float gravity = -9.8f;
@@ -22,6 +24,7 @@ namespace Yarn.Unity.Example {
         // Update is called once per frame
         void Update()
         {
+            
             if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true) 
                 return;
 
