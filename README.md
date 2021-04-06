@@ -10,8 +10,16 @@ ESC --- Pause
 TAB --- Journal  
 F --- Interact  
 
+//COMPLETED  
+-Greybox build (see branch)  
+-Intro dialogue ( (-) Pierce)  
+-Pause menu (Resume // QUIT)  
+-Opening/closing the journal
+
 //TODO  
 -Fix Pierce Dialogue  
 -Figure out cursor lock problems  
 -Get "press f to interact" to popup when in range  
 -Get journal buttons working  
+-Expand Pause menu  
+-Add splash screen
