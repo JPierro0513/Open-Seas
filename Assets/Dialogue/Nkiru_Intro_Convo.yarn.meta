@@ -8,15 +8,16 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: en-US
   stringIDs:
-  - Nkiru_Intro_Convo-Start-0
-  - Nkiru_Intro_Convo-Start-1
-  - Nkiru_Intro_Convo-Start-2
+  - Nkiru_Intro_Convo-Nkiru-0
+  - Nkiru_Intro_Convo-Nkiru-1
+  - Nkiru_Intro_Convo-Nkiru-2
   - Nkiru_Intro_Convo-Help.Nkiru-3
   - Nkiru_Intro_Convo-Move.On-4
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 2909f31af562ac44091fb4c7d5aad4a6,
+    type: 3}
   localizations: []

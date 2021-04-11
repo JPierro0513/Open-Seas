@@ -1,0 +1,88 @@
+title: Start.1.1.1
+tags: 
+colorID: 0
+position: -1251,879
+---
+<<set $ES1 to "Pleased">>
+<<set $CT1 to 0>>
+Pierce: A beautiful horizon, is it not, Cassidy?
+[[It certainly is, sir.|Respectful.1.1.1]]
+[[I've gotten used to it.|Flippant.1.1.1]]
+[[It really is.|Agree.1.1.1]]
+===
+title: Respectful.1.1.1
+tags: 
+colorID: 0
+position: -1593,1197
+---
+Pierce: How many times do I have to tell you, it's Pierce, or Captain Blakely if you really must.
+[[Of course it is, sir.|Respectful.1.1.2]]
+[[Of course, Captain Blakely|Respectful.Mildly.1.1.1]]
+[[Of course, Pierce. Just pulling your leg.|Flippant.1.1.2]]
+===
+title: Flippant.1.1.1
+tags: 
+colorID: 0
+position: -1222,1224
+---
+Pierce: Well, I suppose one of us has to keep our feet on the ground. I'd prefer that to be you anyway.
+[[You asked for me?|Tutorial.1.1.1]]
+===
+title: Agree.1.1.1
+tags: 
+colorID: 0
+position: -915,1249
+---
+Pierce: It's always nice to share a view like this. Mateo is here as well, of course, but he's a little preoccupied at the moment.
+Pierce: And maybe a little drunk. Regardless, that brings me to why I asked for you.
+[[What do you need?|Tutorial.1.1.1]]
+===
+title: Respectful.1.1.2
+tags: 
+colorID: 0
+position: -1840,1530
+---
+<<set $ES1 to "Frustrated">>
+<<set $PierceSir to true>>
+Pierce looks frustrated.
+Pierce: Oh, for the love of- I asked you here for a reason, Quartermaster, let's get to the point.
+[[Of course, sir.|Tutorial.1.1.1]]
+===
+title: Tutorial.1.1.1
+tags: 
+colorID: 0
+position: -1206,1917
+---
+Pierce: We've been away from Nassau for quite a while, if you haven't noticed. A necessity, of course, but I worry that some of the crew may be growing restless.
+Pierce: I believe part of your job description is to handle that sort of thing, unless I'm very much mistaken.
+<<if $PierceSir is true>>
+[[And what exactly is in your job description, sir?|End.1.1.1]]
+<<else>>
+[[And what exactly is in your job description?|End.1.1.1]]
+<<endif>>
+===
+title: Respectful.Mildly.1.1.1
+tags: 
+colorID: 0
+position: -1593,1518
+---
+Pierce: Very well, Quartermaster Taggert. Now, I did call you over here for a reason, if you would?
+
+[[Of course, what did you need?|Tutorial.1.1.1]]
+===
+title: Flippant.1.1.2
+tags: 
+colorID: 0
+position: -1364,1526
+---
+Pierce: Of course you are. Well, if you're done pulling one over on your beloved captain, I did call you over here for a reason.
+[[Of course, what did you need?|Tutorial.1.1.1]]
+===
+title: End.1.1.1
+tags: 
+colorID: 0
+position: -1204,2228
+---
+Pierce: Mostly standing around, looking important, and waiting for something exciting to happy.
+Pierce: Now, go on. You have more than enough to do without listening to me ramble all day. That would be Mateo's job.
+===
