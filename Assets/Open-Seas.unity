@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4486534, g: 0.498707, b: 0.57567537, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -19564,7 +19564,7 @@ GameObject:
   - component: {fileID: 332797206}
   - component: {fileID: 332797210}
   m_Layer: 0
-  m_Name: Mataeo
+  m_Name: Mateo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19658,8 +19658,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Mateo
-  talkToNode: Mateo
-  scriptToLoad: {fileID: 2480198943629176163, guid: 037e72d5bac98b84cbaff3fc00eeaaf5,
+  talkToNode: Start.2.1.1
+  scriptToLoad: {fileID: 2480198943629176163, guid: e0788028f69e8aa448dfe90407addf56,
     type: 3}
 --- !u!1 &333991413
 GameObject:
