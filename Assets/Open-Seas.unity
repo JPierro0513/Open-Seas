@@ -9592,7 +9592,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16028
+  m_Name: pb_Mesh16030
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -105002,7 +105002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Lucy
-  talkToNode: Start.5.1.1.1
+  talkToNode: Start.5.1.1
   scriptToLoad: {fileID: 2480198943629176163, guid: b487cde485776164a90c7682511b4097,
     type: 3}
 --- !u!1 &1744737022
