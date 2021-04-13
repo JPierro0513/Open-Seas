@@ -105002,8 +105002,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Lucy
-  talkToNode: Lucy
-  scriptToLoad: {fileID: 2480198943629176163, guid: b08b115675bc1ba46adfd3b84da9ac09,
+  talkToNode: Start.5.1.1.1
+  scriptToLoad: {fileID: 2480198943629176163, guid: b487cde485776164a90c7682511b4097,
     type: 3}
 --- !u!1 &1744737022
 GameObject:
