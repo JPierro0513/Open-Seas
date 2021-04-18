@@ -1,11 +1,11 @@
 title: Start.1.1.1
 tags: 
 colorID: 0
-position: -1251,879
+position: -1253,871
 ---
 <<set $ES1 to "Pleased">>
 <<set $CT1 to 0>>
-Pierce: A beautiful horizon, is it not, Cassidy?
+Pierce: A beautiful horizon, is it not, Taggert?
 [[It certainly is, sir.|Respectful.1.1.1]]
 [[I've gotten used to it.|Flippant.1.1.1]]
 [[It really is.|Agree.1.1.1]]
@@ -13,7 +13,7 @@ Pierce: A beautiful horizon, is it not, Cassidy?
 title: Respectful.1.1.1
 tags: 
 colorID: 0
-position: -1593,1197
+position: -1598,1194
 ---
 Pierce: How many times do I have to tell you, it's Pierce, or Captain Blakely if you really must.
 [[Of course it is, sir.|Respectful.1.1.2]]
@@ -23,7 +23,7 @@ Pierce: How many times do I have to tell you, it's Pierce, or Captain Blakely if
 title: Flippant.1.1.1
 tags: 
 colorID: 0
-position: -1222,1224
+position: -1225,1223
 ---
 Pierce: Well, I suppose one of us has to keep our feet on the ground. I'd prefer that to be you anyway.
 [[You asked for me?|Tutorial.1.1.1]]
@@ -31,7 +31,7 @@ Pierce: Well, I suppose one of us has to keep our feet on the ground. I'd prefer
 title: Agree.1.1.1
 tags: 
 colorID: 0
-position: -915,1249
+position: -918,1246
 ---
 Pierce: It's always nice to share a view like this. Mateo is here as well, of course, but he's a little preoccupied at the moment.
 Pierce: And maybe a little drunk. Regardless, that brings me to why I asked for you.
@@ -40,7 +40,7 @@ Pierce: And maybe a little drunk. Regardless, that brings me to why I asked for 
 title: Respectful.1.1.2
 tags: 
 colorID: 0
-position: -1840,1530
+position: -1841,1529
 ---
 <<set $ES1 to "Frustrated">>
 <<set $PierceSir to true>>
@@ -51,7 +51,7 @@ Pierce: Oh, for the love of- I asked you here for a reason, Quartermaster, let's
 title: Tutorial.1.1.1
 tags: 
 colorID: 0
-position: -1206,1917
+position: -1207,1916
 ---
 Pierce: We've been away from Nassau for quite a while, if you haven't noticed. A necessity, of course, but I worry that some of the crew may be growing restless.
 Pierce: I believe part of your job description is to handle that sort of thing, unless I'm very much mistaken.
@@ -64,7 +64,7 @@ Pierce: I believe part of your job description is to handle that sort of thing, 
 title: Respectful.Mildly.1.1.1
 tags: 
 colorID: 0
-position: -1593,1518
+position: -1594,1517
 ---
 Pierce: Very well, Quartermaster Taggert. Now, I did call you over here for a reason, if you would?
 
@@ -73,7 +73,7 @@ Pierce: Very well, Quartermaster Taggert. Now, I did call you over here for a re
 title: Flippant.1.1.2
 tags: 
 colorID: 0
-position: -1364,1526
+position: -1367,1523
 ---
 Pierce: Of course you are. Well, if you're done pulling one over on your beloved captain, I did call you over here for a reason.
 [[Of course, what did you need?|Tutorial.1.1.1]]
@@ -81,8 +81,9 @@ Pierce: Of course you are. Well, if you're done pulling one over on your beloved
 title: End.1.1.1
 tags: 
 colorID: 0
-position: -1204,2228
+position: -1208,2225
 ---
 Pierce: Mostly standing around, looking important, and waiting for something exciting to happy.
 Pierce: Now, go on. You have more than enough to do without listening to me ramble all day. That would be Mateo's job.
+<<set $ID1 to true>>
 ===

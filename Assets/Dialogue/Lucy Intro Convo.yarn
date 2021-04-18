@@ -1,12 +1,15 @@
 title: Start.5.1.1
 tags: 
 colorID: 0
-position: -1571,971
+position: -1576,964
 ---
 <<set $CT5 to 0>>
 <<set $ES5 to "Anxious">>
 Lucy: Oh, hey boss. Sorry, just watching for a tail. Ever since Barbados, I just can't shake the feeling the Royals are finally going to come for us.
 Lucy: This long without a proper fight, it makes me antsy. I'd rather they just get it over with.
+<<if $ID4 is true>>
+Lucy: Though I might get one sooner rather than later if Jaime doesn't shut his mouth.
+<<endif>>
 [[A little peace and quiet never hurt anyone.|Diplomatic.5.1.1]]
 [[Whenever they show their faces, we'll be ready|Determined.5.1.1]]
 ===
@@ -25,7 +28,7 @@ Lucy: Speaking of our dear leader, any luck convincing him on a more aggressive 
 title: Determined.5.1.1
 tags: 
 colorID: 0
-position: -1422,1248
+position: -1424,1247
 ---
 <<set $ES5 to "Pleased">>
 Lucy looks pleased.
@@ -47,7 +50,7 @@ Lucy: I appreciate the support on this, Boss. You and me, right?
 title: Disagree.5.1.1
 tags: 
 colorID: 0
-position: -1425,1625
+position: -1427,1621
 ---
 <<set $CT5 to $CT5 - 1>>
 Lucy: Guess that'd be too much to hope for, eh? I know it's a risk, believe me I do. But Pierce is kidding himself if he thinks we're really doing anything right now. We're like ticks on a dog, and if they decide to scratch us out, it won't have meant anything.
@@ -57,8 +60,9 @@ Lucy: Sorry, I've been talking a bit too much to Jaime I think. He tends to get 
 title: Tutorial.5.1.1
 tags: 
 colorID: 0
-position: -1571,1917
+position: -1574,1915
 ---
 System: During this conversation, Lucy's Emotional State changed. Depending on your answers in conversation, each character will react to them, changing their mood.
 System: Each Emotional State has advantages and disadvantages, and can affect how a character reacts to certain decisions, and how well they perform on certain missions. Experiment to discover the affects of different emotions.
+<<set $ID5 to true>>
 ===

@@ -79,20 +79,22 @@ Mateo: But I trust the Captain. So if he seems to think that you're the right on
 title: Reassure.2.1.1
 tags: 
 colorID: 0
-position: -1363,2674
+position: -1364,2673
 ---
 <<set $CT2 to $CT2 + 1>>
 Mateo: See that you don't. Good day, Quartermaster.
 System: You have just gained Trust with Mateo. When you make decisions that certain members of the crew like, their Trust will increase, affecting a multitude of things to do with them. 
 System: From now on, you will not be informed when this happens, and will have to guess from context clues.
+<<set $ID2 to true>>
 ===
 title: Counter.2.1.2
 tags: 
 colorID: 0
-position: -1108,2682
+position: -1110,2680
 ---
 <<set $CT2 to $CT2 - 1>>
 Mateo: Hmph. I suppose, but you're also his second, his right hand. We chose Captain Blakely for a reason, and we chose him long before you. Keep that in mind.
 System: You have just lost Trust with Mateo. When you make decisions that certain members of the crew like, their Trust will increase, affecting a multitude of things to do with them. 
 System: From now on, you will not be informed when this happens, and will have to guess from context clues.
+<<set $ID2 to true>>
 ===
