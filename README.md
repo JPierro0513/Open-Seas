@@ -12,14 +12,15 @@ F --- Interact
 
 //COMPLETED  
 -Greybox build (see branch)  
--Intro dialogue ( (-) Pierce)  
+-Alpha Build (see branch)  
+-Intro dialogue  
 -Pause menu (Resume // QUIT)  
--Opening/closing the journal
+-Basic Main Menu  
+-Opening/closing the journal  
 
 //TODO  
--Fix Pierce Dialogue  
 -Figure out cursor lock problems  
 -Get "press f to interact" to popup when in range  
 -Get journal buttons working  
--Expand Pause menu  
+-Finish Main Menu  
 -Add splash screen
