@@ -1,0 +1,98 @@
+title: Start.3.1.1
+tags: 
+colorID: 0
+position: -1300,1236
+---
+<<set $ES3 to "Pleased">>
+<<set $CT3 to 0>>
+Nkiru: Ah, Taggert, lend me a hand will you?
+[[What do you need?|Continue.3.1.1]]
+===
+title: Continue.3.1.1
+tags: 
+colorID: 0
+position: -1320,1525
+---
+Nkiru: Just a pair of strong hands. Come here.
+Nkiru: Now, I need you to hold up the actual cannon until I tell you to set it down.
+Nkiru: Excellent. That's enough, thank you.
+[[What was that about?|Continue.3.1.2]]
+===
+title: Continue.3.1.2
+tags: 
+colorID: 0
+position: -1330,1816
+---
+Nkiru: The wheel was damaged in our last battle, one of the crew only just noticed. I wanted to make sure that was the only damage done to it, which is the difference between replacing the wheel, or the entire base.
+Nkiru: Even one crack, and the entire thing comes crashing down. Not something you want to have happen in the heat of combat, is it?
+[[And have you found a crack?|Subtle.3.1.1]]
+[[Does it need replacing?|Literal.3.1.1]]
+===
+title: Subtle.3.1.1
+tags: 
+colorID: 0
+position: -1460,2096
+---
+<<set $CT3 to $CT3 + 1>>
+Nkiru: I don't think so, but I suppose only time will tell. Each of these pieces fill the larger whole of the Bittersweet, which itself holds a far larger goal than she ever will be able to complete alone.
+[[That feels like a daunting task.|Honest.3.1.1]]
+[[Sounds like you'd be good at my job|Compliment.3.1.1]]
+===
+title: Literal.3.1.1
+tags: 
+colorID: 0
+position: -1187,2100
+---
+Nkiru: This? No, it should hold I think. I may not watch as much as you need to, but the cannons under my supervision must work their best in the middle of the worst we can imagine, and the same is true of those who fire them.
+Nkiru: Just as the whole of the Bittersweet is your responsibility, so they are mine. 
+[[Can I provide you with any extra supplies for that?|Question.3.1.1]]
+[[Sounds like you'd be good at my job.|Compliment.3.1.1]]
+===
+title: Honest.3.1.1
+tags: 
+colorID: 0
+position: -1590,2416
+---
+Nkiru: Yes, and I don't think any of us would tell you differently, at least the ones who will speak honestly. I hope you are as stable as I see you, Adeline Taggert. There are quite a few here who need your guidance.
+[[Are you one of them?|Question.3.1.2]]
+[[Thanks for the advice.|Thank.3.1.2]]
+===
+title: Compliment.3.1.1
+tags: 
+colorID: 0
+position: -1344,2413
+---
+Nkiru: Yes, Pierce thought so too. But I am content with the pieces I have given. Besides, I worry that going too far beyond it, and I would lose sight of the big picture.
+Nkiru: I hope that that does not end up applying to you, Adeline Taggert. There are quite a few here who need your guidance.
+[[Are you one of them?|Question.3.1.2]]
+[[Thanks for the advice.|Thank.3.1.2]]
+===
+title: Question.3.1.1
+tags: 
+colorID: 0
+position: -1061,2423
+---
+Nkiru: Not at the moment, other than making sure Mateo is well supplied. If there is a problem, he will likely be the one to fix it. Though if you could reduce our supply of alcohol it might be good for him.
+Nkiru: He is one of many here who could use your guidance, if you have the wisdom to give it.
+[[And are you one of them?|Question.3.1.2]]
+[[Thanks for the advice.|Thank.3.1.2]]
+===
+title: Question.3.1.2
+tags: 
+colorID: 8
+position: -1572,2699
+---
+<<set $CT3 to $CT3 + 1>>
+Nkiru: If I was would I know it? I feel comfortable where I am, but don't most who need help?
+Nkiru: I appreciate the thought, Quartermaster. Perhaps if we talk more, we will find the things I wish to discuss. Or perhaps it will reveal more about you. Either way, it will be interesting to find out, won't it?
+<<set $ID3 to true>>
+===
+title: Thank.3.1.2
+tags: 
+colorID: 0
+position: -1217,2700
+---
+Nkiru: Don't thank me, Quartermaster. I have as much of an agenda as anyone else. Your job means taking none of us at face value, and that includes me. 
+Nkiru: All of us here have a difficult past. We wouldn't be here otherwise. I wish you luck navigating them, for I wouldn't want your job if you paid me. Which, I suppose you are.
+<<set $ID3 to true>>
+===

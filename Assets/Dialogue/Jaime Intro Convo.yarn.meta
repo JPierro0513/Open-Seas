@@ -1,0 +1,59 @@
+fileFormatVersion: 2
+guid: 5cc6f9303ab1b8940a9939b82174e774
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Jaime Intro Convo-Start.4.1.1-0
+  - Jaime Intro Convo-Start.4.1.1-1
+  - Jaime Intro Convo-Start.4.1.1-2
+  - Jaime Intro Convo-Start.4.1.1-3
+  - Jaime Intro Convo-Start.4.1.1-4
+  - Jaime Intro Convo-Check.4.1.1-5
+  - Jaime Intro Convo-Check.4.1.1-6
+  - Jaime Intro Convo-Check.4.1.1-7
+  - Jaime Intro Convo-Check.4.1.1-8
+  - Jaime Intro Convo-Check.4.1.1-9
+  - Jaime Intro Convo-Lucy.4.1.1-10
+  - Jaime Intro Convo-Lucy.4.1.1-11
+  - Jaime Intro Convo-Lucy.4.1.1-12
+  - Jaime Intro Convo-Lucy.4.1.1-13
+  - Jaime Intro Convo-Lucy.4.1.1-14
+  - Jaime Intro Convo-Check.4.1.2-15
+  - Jaime Intro Convo-Check.4.1.2-16
+  - Jaime Intro Convo-Check.4.1.2-17
+  - Jaime Intro Convo-Check.4.1.2-18
+  - Jaime Intro Convo-Check.4.1.2-19
+  - Jaime Intro Convo-StraightForward.4.1.1-20
+  - Jaime Intro Convo-StraightForward.4.1.1-21
+  - Jaime Intro Convo-StraightForward.4.1.1-22
+  - Jaime Intro Convo-Cautious.4.1.1-23
+  - Jaime Intro Convo-Cautious.4.1.1-24
+  - Jaime Intro Convo-Cautious.4.1.1-25
+  - Jaime Intro Convo-Direct.4.1.1-26
+  - Jaime Intro Convo-Direct.4.1.1-27
+  - Jaime Intro Convo-StraightForward.4.1.2-28
+  - Jaime Intro Convo-StraightForward.4.1.2-29
+  - Jaime Intro Convo-Cautious.4.1.2-30
+  - Jaime Intro Convo-Cautious.4.1.2-31
+  - Jaime Intro Convo-Cautious.4.1.2-32
+  - Jaime Intro Convo-Cautious.4.1.2-33
+  - Jaime Intro Convo-Thanks.4.1.1-34
+  - Jaime Intro Convo-Thanks.4.1.1-35
+  - Jaime Intro Convo-Thanks.4.1.1-36
+  - Jaime Intro Convo-Thanks.4.1.1-37
+  - Jaime Intro Convo-Question.4.1.1-38
+  - Jaime Intro Convo-Question.4.1.1-39
+  - Jaime Intro Convo-End.4.1.1-40
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 5cc6f9303ab1b8940a9939b82174e774,
+    type: 3}
+  localizations: []

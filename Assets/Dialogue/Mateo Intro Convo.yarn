@@ -1,0 +1,100 @@
+title: Start.2.1.1
+tags: 
+colorID: 0
+position: -1258,1232
+---
+<<set $ES2 to "Pleased">>
+<<set $CT2 to 0>>
+Mateo: Ah, hello Quartermaster. What can I do for you?
+[[What're you working on?|Question.2.1.1]]
+===
+title: Question.2.1.1
+tags: 
+colorID: 0
+position: -1251,1523
+---
+Mateo: Oh this? The hatch has been getting stuck recently, I'm going to try replacing the plank across from the hinges, it may have swollen up.
+Mateo: We don't want anyone stuck below decks if we get ambushed, do we?
+[[How's the ship holding up?|Professional.2.1.1]]
+[[How're you holding up?|Personal.2.1.1]]
+===
+title: Professional.2.1.1
+tags: 
+colorID: 0
+position: -1432,1806
+---
+Mateo: Ah, she'll hold together! Though we are admittedly running low on wood. Assuming we don't get into any major battles I should be able to stretch what we have left, but if you get the chance I'd appreciate it if you got us enough money to buy some more at the next port.
+[[I'll see what I can do.|Question.2.1.2]]
+===
+title: Personal.2.1.1
+tags: 
+colorID: 0
+position: -1094,1797
+---
+Mateo: Ah, you know how it is. The work never ends, especially when we've been at sea for so long. I'd be doing better if we had a little more to drink, I've started having to ration my rum. Never good for a man's health.
+Mateo: If you get us enough money to stock up at the next port, I'd appreciate it.
+[[It might not be a bad thing for you to ration your rum.|Critical.2.1.1]]
+[[I'll see what I can do.|Question.2.1.2]]
+===
+title: Question.2.1.2
+tags: 
+colorID: 0
+position: -1235,2100
+---
+Mateo: Just a moment, Quartermaster, before you go.
+Mateo: ...
+[[Is everything all right?|Conversation.2.1.1]]
+===
+title: Critical.2.1.1
+tags: 
+colorID: 0
+position: -954,2122
+---
+<<set $ES2 to "Frustrated">>
+Mateo looks frustrated.
+Mateo: Oh, don't you start with me too. I hear enough of that from Nkiru, I'm doing fine. How many pirates do you know that don't drink too much once in a while?
+[[I don't.|Counter.2.1.1]]
+[[Fair enough.|Question.2.1.2]]
+===
+title: Counter.2.1.1
+tags: 
+colorID: 0
+position: -945,2377
+---
+<<set $CT2 to $CT2 + 1>>
+Mateo: Oh. I didn't know, my apologies Quartermaster. I'll remember that.
+[[Don't worry about it.|Question.2.1.2]]
+===
+title: Conversation.2.1.1
+tags: 
+colorID: 0
+position: -1235,2385
+---
+Mateo: Yes, my apologies, I am just struggling with how to phrase my question.
+Mateo: To be blunt, I only voted for you as Quartermaster because Captain Blakely put you forward. Personally, I'm not sure you've proved yourself yet for the responsibility you have.
+Mateo: But I trust the Captain. So if he seems to think that you're the right one for the job, then you've earned the benefit of the doubt. Just don't let him down, alright?
+[[I don't intend to.|Reassure.2.1.1]]
+[[My job is to serve the crew, not the Captain.|Counter.2.1.2]]
+===
+title: Reassure.2.1.1
+tags: 
+colorID: 0
+position: -1364,2673
+---
+<<set $CT2 to $CT2 + 1>>
+Mateo: See that you don't. Good day, Quartermaster.
+System: You have just gained Trust with Mateo. When you make decisions that certain members of the crew like, their Trust will increase, affecting a multitude of things to do with them. 
+System: From now on, you will not be informed when this happens, and will have to guess from context clues.
+<<set $ID2 to true>>
+===
+title: Counter.2.1.2
+tags: 
+colorID: 0
+position: -1110,2680
+---
+<<set $CT2 to $CT2 - 1>>
+Mateo: Hmph. I suppose, but you're also his second, his right hand. We chose Captain Blakely for a reason, and we chose him long before you. Keep that in mind.
+System: You have just lost Trust with Mateo. When you make decisions that certain members of the crew like, their Trust will increase, affecting a multitude of things to do with them. 
+System: From now on, you will not be informed when this happens, and will have to guess from context clues.
+<<set $ID2 to true>>
+===

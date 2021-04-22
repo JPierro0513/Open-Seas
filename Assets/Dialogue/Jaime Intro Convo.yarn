@@ -1,0 +1,121 @@
+title: Start.4.1.1
+tags: 
+colorID: 0
+position: -1523,1097
+---
+<<set $ES4 to "Pleased">>
+<<set $CT4 to 0>>
+Jaime: Adeline! Up here to admire the day with Lucy and I? She's been staring off the side of the ship for hours, haven't you Lucy?
+Lucy: Go to hell, Jaime!
+Jaime: She's just grumpy that I won our most recent argument. What can I do for you? Anything that doesn't involve leaving the wheel, if you don't mind.
+[[Just here to check in with everyone. We've been travelling for awhile.|Check.4.1.1]]
+[[You and Lucy getting along alright?|Lucy.4.1.1]]
+===
+title: Check.4.1.1
+tags: 
+colorID: 0
+position: -1670,1386
+---
+Jaime: We have indeed, I'm more aware of that than most. Look at that glorious horizon, and here I am, steering the Bittersweet into it. I can see Pierce is down there enjoying the view plenty, predictable as he is.
+Jaime: And here you are, following his orders close and personal, aren't you?
+[[Checking on the crew is part of my job, Jaime.|StraightForward.4.1.1]]
+[[We agreed it was the right course of action.|Cautious.4.1.1]]
+[[Your point?|Direct.4.1.1]]
+===
+title: Lucy.4.1.1
+tags: 
+colorID: 0
+position: -1378,1391
+---
+<<set $CT5 to $CT5 - 1>>
+<<set $LucyJaime to true>>
+Jaime: Oh, you don't need to worry about that, Hewitt can handle me just fine on her own, can't you Luce?
+Lucy: Call me Luce again and you'll end up stabbed.
+Jaime: I actually think she might mean that one, might be worth an apology later. Don't want to wake up without a tongue do I?
+Jaime: What do you need, oh glorious Quartermaster?
+[[The Captain sent me to check on everyone, but you seem to be doing fine.|Check.4.1.2]]
+===
+title: Check.4.1.2
+tags: 
+colorID: 0
+position: -1378,1693
+---
+Jaime: Well, why wouldn't I be? Look at that glorious horizon, and here I am, steering the Bittersweet into it. I can see Pierce is down there enjoying the view plenty, predictable as he is. 
+Jaime: And here you are, following his orders close and personal, aren't you?
+[[Checking on the crew is part of my job, Jaime.|StraightForward.4.1.1]]
+[[We agreed it was the right course of action.|Cautious.4.1.1]]
+[[Your point?|Direct.4.1.1]]
+===
+title: StraightForward.4.1.1
+tags: 
+colorID: 0
+position: -1738,1988
+---
+<<set $CT4 to $CT4 - 1>>
+Jaime: True enough, thus far you have been an excellent Quartermaster, very thorough. I don't mind telling you that I voted for you with full confidence you would do an excellent job. You keep rouges like me in line, don't you?
+[[Don't you forget it.|StraightForward.4.1.2]]
+[[Not too in line, we're still pirates.|Cautious.4.1.2]]
+===
+title: Cautious.4.1.1
+tags: 
+colorID: 0
+position: -1470,2001
+---
+<<set $CT4 to $CT4 + 1>>
+Jaime: Did you now? I knew I voted for you for a reason, Taggert. You find surprisingly few leaders in gangs of cutthroats and thieves, but I always know how to pick them out.
+[[Thanks for the support, I suppose.|Thanks.4.1.1]]
+[[Is that what you think we are?|Question.4.1.1]]
+===
+title: Direct.4.1.1
+tags: 
+colorID: 0
+position: -1190,2020
+---
+<<set $CT4 to $CT4 - 1>>
+Jaime: No point, just making casual conversation! Anyhow, you can tell the Captain I'm doing just fine, ready to alter course whenever either of you decides our new course. Those mundane decisions normally fall to you, no? Leaves him for the dramatic posing and such.
+[[Goodbye, Jaime|End.4.1.1]]
+===
+title: StraightForward.4.1.2
+tags: 
+colorID: 0
+position: -2089,2417
+---
+Jaime: Oh, I won't. You always manage to keep me on my toes, Taggert. I'm sure I'll be seeing you around.
+[[Goodbye, Jaime|End.4.1.1]]
+===
+title: Cautious.4.1.2
+tags: 
+colorID: 0
+position: -1800,2395
+---
+Jaime: That we are, though you might forget that given everyone else around here. Other than Lucy and myself, I'm fairly certain everyone has forgotten our dastardly roots, isn't that right Hewitt?
+Lucy: Eat one of Mateo's rotted boards, Ibarra.
+Jaime: Didn't have much venom behind that one, did she? I think I struck a nerve.
+[[Goodbye, Jaime.|End.4.1.1]]
+===
+title: Thanks.4.1.1
+tags: 
+colorID: 0
+position: -1508,2382
+---
+Jaime: Of course, it's not like it was a binding contract or all that. Screw up and we'll leave you on island somewhere, we are pirates after all. Though knowing Pierce, I expect it would be an island with plenty of passing ships. 
+Jaime: Anyway, no pressure, Adeline! Enjoyed the chat, but I really must get back to gazing mournfully out to sea. Wait, that's Pierce's job. Hewitt, you're stealing Pierce's job!
+Lucy: Give me some goddamn piece, Ibarra!
+[[Goodbye, Jaime.|End.4.1.1]]
+===
+title: Question.4.1.1
+tags: 
+colorID: 0
+position: -1233,2384
+---
+Jaime: Well, we're a bit more righteous than the standard I suppose. Hard not to be, with a Captain like Blakely, he is intoxicating. Add in that high British charm, and- well, you know what I mean. Occasionally brings Everett to tears, and I think his eyes have dried up from old age! Why, I remember one time-
+[[Goodbye, Jaime.|End.4.1.1]]
+===
+title: End.4.1.1
+tags: 
+colorID: 0
+position: -1512,2726
+---
+<<set $ID4 to true>>
+System: Be aware, other characters may be able to hear your conversations, so your words may affect more than just who you're talking to. The Bittersweet is not a large ship, word moves quickly.
+===
