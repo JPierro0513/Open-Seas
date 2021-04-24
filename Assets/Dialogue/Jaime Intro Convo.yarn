@@ -1,8 +1,11 @@
 title: Start.4.1.1
 tags: 
 colorID: 0
-position: -1523,1097
+position: -1524,1096
 ---
+<<if $ID4 is true>>
+Jaime: Sorry, Adeline, my true love is the sea, and it is calling me! Can't divide my focus forever.
+<<else>>
 <<set $ES4 to "Pleased">>
 <<set $CT4 to 0>>
 Jaime: Adeline! Up here to admire the day with Lucy and I? She's been staring off the side of the ship for hours, haven't you Lucy?
@@ -10,6 +13,7 @@ Lucy: Go to hell, Jaime!
 Jaime: She's just grumpy that I won our most recent argument. What can I do for you? Anything that doesn't involve leaving the wheel, if you don't mind.
 [[Just here to check in with everyone. We've been travelling for awhile.|Check.4.1.1]]
 [[You and Lucy getting along alright?|Lucy.4.1.1]]
+<<endif>>
 ===
 title: Check.4.1.1
 tags: 

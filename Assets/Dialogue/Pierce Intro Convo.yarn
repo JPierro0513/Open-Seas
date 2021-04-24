@@ -1,14 +1,18 @@
 title: Start.1.1.1
 tags: 
 colorID: 0
-position: -1253,871
+position: -1256,869
 ---
+<<if $ID1 is true>>
+Pierce: You don't need to check in with me, Taggert. I'm alright. Take care of the rest of the crew.
+<<else>>
 <<set $ES1 to "Pleased">>
 <<set $CT1 to 0>>
 Pierce: A beautiful horizon, is it not, Taggert?
 [[It certainly is, sir.|Respectful.1.1.1]]
 [[I've gotten used to it.|Flippant.1.1.1]]
 [[It really is.|Agree.1.1.1]]
+<<endif>>
 ===
 title: Respectful.1.1.1
 tags: 
@@ -83,7 +87,7 @@ tags:
 colorID: 0
 position: -1208,2225
 ---
-Pierce: Mostly standing around, looking important, and waiting for something exciting to happy.
+Pierce: Mostly standing around, looking important, and waiting for something exciting to happen.
 Pierce: Now, go on. You have more than enough to do without listening to me ramble all day. That would be Mateo's job.
 <<set $ID1 to true>>
 ===

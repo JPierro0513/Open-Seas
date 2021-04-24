@@ -1,12 +1,16 @@
 title: Start.3.1.1
 tags: 
 colorID: 0
-position: -1300,1236
+position: -1303,1231
 ---
+<<if $ID3 is true>>
+Nkiru: My apologies, Quartermaster, I am merely lost in thought. We will continue our conversation later.
+<<else>>>>
 <<set $ES3 to "Pleased">>
 <<set $CT3 to 0>>
 Nkiru: Ah, Taggert, lend me a hand will you?
 [[What do you need?|Continue.3.1.1]]
+<<endif>>
 ===
 title: Continue.3.1.1
 tags: 
@@ -80,7 +84,7 @@ Nkiru: He is one of many here who could use your guidance, if you have the wisdo
 title: Question.3.1.2
 tags: 
 colorID: 8
-position: -1572,2699
+position: -1577,2696
 ---
 <<set $CT3 to $CT3 + 1>>
 Nkiru: If I was would I know it? I feel comfortable where I am, but don't most who need help?

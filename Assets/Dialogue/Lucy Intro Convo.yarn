@@ -1,8 +1,11 @@
 title: Start.5.1.1
 tags: 
 colorID: 0
-position: -1576,964
+position: -1577,962
 ---
+<<if $ID5 is true>>
+Lucy: I won't take up any more of your time. Thanks for hearing me out.
+<<else>>
 <<set $CT5 to 0>>
 <<set $ES5 to "Anxious">>
 Lucy: Oh, hey boss. Sorry, just watching for a tail. Ever since Barbados, I just can't shake the feeling the Royals are finally going to come for us.
@@ -12,6 +15,7 @@ Lucy: Though I might get one sooner rather than later if Jaime doesn't shut his 
 <<endif>>
 [[A little peace and quiet never hurt anyone.|Diplomatic.5.1.1]]
 [[Whenever they show their faces, we'll be ready|Determined.5.1.1]]
+<<endif>>
 ===
 title: Diplomatic.5.1.1
 tags: 
@@ -50,7 +54,7 @@ Lucy: I appreciate the support on this, Boss. You and me, right?
 title: Disagree.5.1.1
 tags: 
 colorID: 0
-position: -1427,1621
+position: -1417,1641
 ---
 <<set $CT5 to $CT5 - 1>>
 Lucy: Guess that'd be too much to hope for, eh? I know it's a risk, believe me I do. But Pierce is kidding himself if he thinks we're really doing anything right now. We're like ticks on a dog, and if they decide to scratch us out, it won't have meant anything.

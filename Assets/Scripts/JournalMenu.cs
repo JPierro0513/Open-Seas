@@ -1,70 +1,58 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
+namespace Yarn.Unity.Example
+{
 public class JournalMenu : MonoBehaviour
 {
     public static bool gameIsPaused = false;
 
-    public GameObject JournalMenuUI;
-    public GameObject crosshairUI;
-    public GameObject Questsimage;
-    public GameObject crewmatesimage;
-    public GameObject blankimage;
+    public GameObject QuestJournal;
+    public GameObject CrewJournal;
+    public GameObject OptionsJournal;
 
     // Update is called once per frame
     void Update()
     {
+        if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
+            return;
+
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             if (gameIsPaused)
             {
-                Cursor.lockState = CursorLockMode.Locked;
                 Resume();
+                Cursor.lockState = CursorLockMode.Locked;
             }
             else
             {
                 Cursor.lockState = CursorLockMode.None;
-                Pause();
+                Journal();
             }
         }
     }
 
     public void Resume()
     {
-        JournalMenuUI.SetActive(false);
-        crosshairUI.SetActive(true);
+        OptionsJournal.SetActive(false);
+        CrewJournal.SetActive(false);
+        QuestJournal.SetActive(false);
         Time.timeScale = 1f;
         gameIsPaused = false;
     }
 
-    void Pause()
+    void Journal()
     {
-        if (Input.GetKeyDown(KeyCode.L)) Cursor.lockState = CursorLockMode.None;
-        crosshairUI.SetActive(false);
-        JournalMenuUI.SetActive(true);
+        OptionsJournal.SetActive(true);
         Time.timeScale = 0f;
         gameIsPaused = true;
     }
 
-    void Quests()
+    public void BackGame()
     {
-        blankimage.SetActive(false);
-        Questsimage.SetActive(true);
-        crewmatesimage.SetActive(false);
+        SceneManager.LoadScene(0);
     }
-
-    void crewmates()
-    {
-        blankimage.SetActive(false);
-        Questsimage.SetActive(false);
-        crewmatesimage.SetActive(true);
-    }
-
-    void options()
-    {
-        blankimage.SetActive(true);
-        Questsimage.SetActive(false);
-        crewmatesimage.SetActive(false);
-    }
+}
 }

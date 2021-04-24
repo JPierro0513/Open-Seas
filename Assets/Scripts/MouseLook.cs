@@ -2,38 +2,41 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Yarn.Unity.Example {
-public class MouseLook : MonoBehaviour
+namespace Yarn.Unity.Example 
 {
-    public float mouseSensitivity = 100f;
-    public Transform playerBody;
-    float xRotation = 0f;
-
-    public GameObject crosshairUI;
-
-    void Start()
+    public class MouseLook : MonoBehaviour
     {
-        //Cursor.lockState = CursorLockMode.Locked;
-    }
+        public float mouseSensitivity = 100f;
+        public Transform playerBody;
+        float xRotation = 0f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
+        void Start()
         {
-            Cursor.lockState = CursorLockMode.None;
-            crosshairUI.SetActive(false);
-            return;
+            Cursor.lockState = CursorLockMode.Locked;
         }
 
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+        // Update is called once per frame
+        void Update()
+        {
+            if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
+            {
+                Cursor.lockState = CursorLockMode.None;
+                return;
+            }
 
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+            float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+            float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        playerBody.Rotate(Vector3.up * mouseX);
+            xRotation -= mouseY;
+            xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+
+            transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+            playerBody.Rotate(Vector3.up * mouseX);
+        }
+
+        public void setSens(float sensitivityControl)
+        {
+            mouseSensitivity = sensitivityControl;
+        }
     }
-}
 }

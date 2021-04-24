@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: fc1fc20b80d3feb4eb8d380ee3febde4
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MrsBathhurstNFW01-Regular
+  fontNames:
+  - MrsBathhurstNFW01-Regular
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 35b887caa7acf814ba8a9a90cf46f4f9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

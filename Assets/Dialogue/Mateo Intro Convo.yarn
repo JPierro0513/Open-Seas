@@ -1,12 +1,16 @@
 title: Start.2.1.1
 tags: 
 colorID: 0
-position: -1258,1232
+position: -1259,1230
 ---
+<<if $ID2 is true>>
+Mateo: I have to focus on my work now, Quartermaster. I'm sure you understand.
+<<else>>
 <<set $ES2 to "Pleased">>
 <<set $CT2 to 0>>
 Mateo: Ah, hello Quartermaster. What can I do for you?
 [[What're you working on?|Question.2.1.1]]
+<<endif>>
 ===
 title: Question.2.1.1
 tags: 
@@ -90,7 +94,7 @@ System: From now on, you will not be informed when this happens, and will have t
 title: Counter.2.1.2
 tags: 
 colorID: 0
-position: -1110,2680
+position: -1113,2677
 ---
 <<set $CT2 to $CT2 - 1>>
 Mateo: Hmph. I suppose, but you're also his second, his right hand. We chose Captain Blakely for a reason, and we chose him long before you. Keep that in mind.
