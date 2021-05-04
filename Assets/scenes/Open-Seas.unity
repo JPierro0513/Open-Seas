@@ -13772,6 +13772,7 @@ GameObject:
   - component: {fileID: 1002357195585082952}
   - component: {fileID: 1002357195585082954}
   - component: {fileID: 1002357195585082955}
+  - component: {fileID: 1002357195585082956}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -13806,7 +13807,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Volume: '
+  m_text: 'Volume: 100%'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b71f007e1a7935d4794152e02e1d257b, type: 2}
   m_sharedMaterial: {fileID: 2470500402685032242, guid: b71f007e1a7935d4794152e02e1d257b,
@@ -13877,10 +13878,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1002357195585082955}
-    characterCount: 8
+    characterCount: 12
     spriteCount: 0
     spaceCount: 1
-    wordCount: 1
+    wordCount: 2
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -13900,6 +13901,18 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1002357195585082956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002357195585082953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d27e0bae1e627fa4788781c712494d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1002357195691520582
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13915,7 +13928,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0.6, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -14175,8 +14188,8 @@ RectTransform:
   m_Father: {fileID: 1002357197480548417}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.6, y: 0}
+  m_AnchorMax: {x: 0.6, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -14220,7 +14233,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1002357195939658048}
   - component: {fileID: 1002357195939658051}
-  - component: {fileID: 1002357195939658050}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -14228,20 +14240,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1002357195939658050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002357195939658049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e1c6c065ef486750848c9478f757e9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseSensitivity: 100
-  playerBody: {fileID: 0}
 --- !u!114 &1002357195939658051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14285,16 +14283,27 @@ MonoBehaviour:
   m_FillRect: {fileID: 1002357195691520582}
   m_HandleRect: {fileID: 1002357195862001749}
   m_Direction: 0
-  m_MinValue: 0.0001
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0.0001
+  m_MinValue: 70
+  m_MaxValue: 120
+  m_WholeNumbers: 1
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: ShowSliderValue
-        m_Mode: 1
+      - m_Target: {fileID: 1002357197124001473}
+        m_MethodName: textUpdate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1071124855}
+        m_MethodName: setSens
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -14335,7 +14344,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1002357195962079992}
   - component: {fileID: 1002357195962079994}
-  - component: {fileID: 1002357195962079995}
   m_Layer: 5
   m_Name: Slider (1)
   m_TagString: Untagged
@@ -14386,16 +14394,16 @@ MonoBehaviour:
   m_FillRect: {fileID: 1002357196443772400}
   m_HandleRect: {fileID: 1002357196586802993}
   m_Direction: 0
-  m_MinValue: 0.0001
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0.0001
+  m_MinValue: 1
+  m_MaxValue: 100
+  m_WholeNumbers: 1
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: ShowSliderValue
-        m_Mode: 1
+      - m_Target: {fileID: 1002357195585082956}
+        m_MethodName: textUpdate
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -14404,20 +14412,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1002357195962079995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002357195962079993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e1c6c065ef486750848c9478f757e9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseSensitivity: 100
-  playerBody: {fileID: 0}
 --- !u!224 &1002357195997682150
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15039,7 +15033,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -15317,8 +15311,8 @@ RectTransform:
   m_Father: {fileID: 1002357197519117208}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -15977,7 +15971,7 @@ MonoBehaviour:
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
-  m_padding: 0
+  m_padding: 1.25
   m_canvasRenderer: {fileID: 1002357197092093128}
   m_TextComponent: {fileID: 1002357196028655166}
   m_materialReferenceIndex: 1
@@ -16029,6 +16023,7 @@ GameObject:
   - component: {fileID: 1002357197124001475}
   - component: {fileID: 1002357197124001477}
   - component: {fileID: 1002357197124001474}
+  - component: {fileID: 1002357197124001473}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -16036,6 +16031,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1002357197124001473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002357197124001472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7502a1f301d8d0c4cb1ba3c5e4eb20a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1002357197124001474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16055,7 +16062,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Mouse Sensitivity: '
+  m_text: 'Mouse Sensitivity: 100'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b71f007e1a7935d4794152e02e1d257b, type: 2}
   m_sharedMaterial: {fileID: 2470500402685032242, guid: b71f007e1a7935d4794152e02e1d257b,
@@ -16126,10 +16133,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1002357197124001474}
-    characterCount: 19
+    characterCount: 22
     spriteCount: 0
     spaceCount: 2
-    wordCount: 2
+    wordCount: 3
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -16165,8 +16172,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -219.42, y: 86.578}
-  m_SizeDelta: {x: 270.66138, y: 40.57849}
+  m_AnchoredPosition: {x: -189.49, y: 87.686}
+  m_SizeDelta: {x: 330.5172, y: 42.79541}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1002357197124001477
 CanvasRenderer:
@@ -16208,7 +16215,7 @@ MonoBehaviour:
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
-  m_padding: 0
+  m_padding: 1.25
   m_canvasRenderer: {fileID: 1002357197208503872}
   m_TextComponent: {fileID: 1002357197576957451}
   m_materialReferenceIndex: 1

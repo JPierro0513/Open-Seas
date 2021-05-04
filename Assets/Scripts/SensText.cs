@@ -3,16 +3,16 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class SensText : MonoBehaviour {
-  public Slider sliderUI;
-  private Text textSliderValue;
 
-  void Start (){
-    textSliderValue = GetComponent<Text>();
-    ShowSliderValue();
+  TMPro.TextMeshProUGUI sensText;
+
+  void Start()
+  {
+    sensText = GetComponent<TMPro.TextMeshProUGUI>();
   }
 
-  public void ShowSliderValue () {
-    string sliderMessage = "Slider value = " + sliderUI.value;
-    textSliderValue.text = sliderMessage;
+  public void textUpdate (float value)
+  {
+    sensText.text = "Mouse Sensitivity: " + value;
   }
 }
