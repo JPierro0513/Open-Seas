@@ -1,7 +1,7 @@
 title: Start.1.1.1
 tags: 
 colorID: 0
-position: -1247,304
+position: -1248,303
 ---
 <<if $ID1 is true>>
 Pierce Blakely: You don't need to check in with me, Taggert. I'm alright. Take care of the rest of the crew.
@@ -9,6 +9,7 @@ Pierce Blakely: You don't need to check in with me, Taggert. I'm alright. Take c
 <<set $ES1 to "Pleased">>
 <<set $CT1 to 0>>
 <<set $pq1 to false>>
+...
 [[You asked to see me?|Continue.1.1.1]]
 <<endif>>
 ===
