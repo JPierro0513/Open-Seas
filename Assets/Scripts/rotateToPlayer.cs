@@ -1,20 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
 public class rotateToPlayer : MonoBehaviour
 {
-    public GameObject player;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject target;
 
-    // Update is called once per frame
-    void Update()
+    void Update() 
     {
-        transform.LookAt(player.transform);
-        transform.rotation = Quaternion.Euler(0, transform.rotation.y, 90);
+        Vector3 v3 = target.transform.position - transform.position;
+        v3.y = 0.0f;
+        transform.rotation = Quaternion.LookRotation(-v3);
     }
 }
