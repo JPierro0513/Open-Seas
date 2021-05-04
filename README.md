@@ -10,8 +10,3 @@ ______CONTROLS________
 WASD --- Move  
 TAB --- Journal  
 L Mouse Button --- Interact  
-
-
-//TODO  
--Get "press f to interact" to popup when in range  
--Finish Main Menu  
