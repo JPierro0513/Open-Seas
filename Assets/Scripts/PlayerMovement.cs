@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Yarn.Unity.Example {
+namespace Yarn.Unity.Example 
+{
     public class PlayerMovement : MonoBehaviour
     {
 
         public UnityEngine.CharacterController controller;
         public GameObject player;
-        public GameObject popupUI;
+        //public GameObject popupUI;
 
         public float speed = 12f;
         public float gravity = -9.8f;
@@ -25,8 +26,11 @@ namespace Yarn.Unity.Example {
         void Update()
         {
             
-            if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true) 
+            if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
+            {
+                Cursor.lockState = CursorLockMode.None; 
                 return;
+            }
 
             isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
@@ -43,7 +47,7 @@ namespace Yarn.Unity.Example {
             velocity.y += gravity * Time.deltaTime;
             controller.Move(velocity * Time.deltaTime);
 
-            if (Input.GetKeyDown(KeyCode.F))
+            if (Input.GetMouseButtonDown(0) && Time.timeScale != 0f)
                 CheckForNearbyNPC();
         }
 

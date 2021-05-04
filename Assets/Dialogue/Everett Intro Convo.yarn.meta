@@ -1,0 +1,59 @@
+fileFormatVersion: 2
+guid: b977b401eab9276499cfc2c73a623128
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Everett Intro Convo-Start.6.1.1-0
+  - Everett Intro Convo-Start.6.1.1-1
+  - Everett Intro Convo-Start.6.1.1-2
+  - Everett Intro Convo-Start.6.1.1-3
+  - Everett Intro Convo-Start.6.1.1-4
+  - Everett Intro Convo-Continue.6.1.3-5
+  - Everett Intro Convo-Continue.6.1.3-6
+  - Everett Intro Convo-Continue.6.1.3-7
+  - Everett Intro Convo-Continue.6.1.3-8
+  - Everett Intro Convo-End.6.1.1-9
+  - Everett Intro Convo-End.6.1.1-10
+  - Everett Intro Convo-End.6.1.1-11
+  - Everett Intro Convo-End.6.1.1-12
+  - Everett Intro Convo-NotReady.6.1.1-13
+  - Everett Intro Convo-TalkedtoCrew.6.1.1-14
+  - Everett Intro Convo-TalkedtoCrew.6.1.1-15
+  - Everett Intro Convo-TalkedtoCrew.6.1.1-16
+  - Everett Intro Convo-NotYet.6.1.1-17
+  - Everett Intro Convo-Sass.6.1.1-18
+  - Everett Intro Convo-Sass.6.1.1-19
+  - Everett Intro Convo-Sass.6.1.1-20
+  - Everett Intro Convo-Respectful.6.1.2-21
+  - Everett Intro Convo-Respectful.6.1.2-22
+  - Everett Intro Convo-Continue.6.1.1-23
+  - Everett Intro Convo-Continue.6.1.1-24
+  - Everett Intro Convo-Continue.6.1.2-25
+  - Everett Intro Convo-Continue.6.1.2-26
+  - Everett Intro Convo-Continue.6.1.2-27
+  - Everett Intro Convo-Respectful.6.1.1-28
+  - Everett Intro Convo-Respectful.6.1.1-29
+  - Everett Intro Convo-Dismissive.6.1.1-30
+  - Everett Intro Convo-Dismissive.6.1.1-31
+  - Everett Intro Convo-CheckIn.6.1.1-32
+  - Everett Intro Convo-CheckIn.6.1.1-33
+  - Everett Intro Convo-CheckIn.6.1.1-34
+  - Everett Intro Convo-Question.6.1.1-35
+  - Everett Intro Convo-Question.6.1.1-36
+  - Everett Intro Convo-Allow.6.1.1-37
+  - Everett Intro Convo-Allow.6.1.1-38
+  - Everett Intro Convo-Question.6.1.2-39
+  - Everett Intro Convo-Question.6.1.2-40
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: b977b401eab9276499cfc2c73a623128,
+    type: 3}
+  localizations: []

@@ -1,0 +1,45 @@
+fileFormatVersion: 2
+guid: 525c9db4198b6dd45bc9e02d5031ffb2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Pierce Intro Convo-Start.1.1.1-0
+  - Pierce Intro Convo-Start.1.1.1-1
+  - Pierce Intro Convo-Start.1.1.1-2
+  - Pierce Intro Convo-Start.1.1.1-3
+  - Pierce Intro Convo-Start.1.1.1-4
+  - Pierce Intro Convo-Respectful.1.1.1-5
+  - Pierce Intro Convo-Respectful.1.1.1-6
+  - Pierce Intro Convo-Respectful.1.1.1-7
+  - Pierce Intro Convo-Respectful.1.1.1-8
+  - Pierce Intro Convo-Flippant.1.1.1-9
+  - Pierce Intro Convo-Flippant.1.1.1-10
+  - Pierce Intro Convo-Agree.1.1.1-11
+  - Pierce Intro Convo-Agree.1.1.1-12
+  - Pierce Intro Convo-Agree.1.1.1-13
+  - Pierce Intro Convo-Respectful.1.1.2-14
+  - Pierce Intro Convo-Respectful.1.1.2-15
+  - Pierce Intro Convo-Respectful.1.1.2-16
+  - Pierce Intro Convo-Tutorial.1.1.1-17
+  - Pierce Intro Convo-Tutorial.1.1.1-18
+  - Pierce Intro Convo-Tutorial.1.1.1-19
+  - Pierce Intro Convo-Tutorial.1.1.1-20
+  - Pierce Intro Convo-Respectful.Mildly.1.1.1-21
+  - Pierce Intro Convo-Respectful.Mildly.1.1.1-22
+  - Pierce Intro Convo-Flippant.1.1.2-23
+  - Pierce Intro Convo-Flippant.1.1.2-24
+  - Pierce Intro Convo-End.1.1.1-25
+  - Pierce Intro Convo-End.1.1.1-26
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 525c9db4198b6dd45bc9e02d5031ffb2,
+    type: 3}
+  localizations: []

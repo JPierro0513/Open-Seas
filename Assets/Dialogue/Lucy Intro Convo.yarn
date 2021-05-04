@@ -1,0 +1,72 @@
+title: Start.5.1.1
+tags: 
+colorID: 0
+position: -1577,962
+---
+<<if $ID5 is true>>
+Lucy Hewitt: I won't take up any more of your time. Thanks for hearing me out.
+<<else>>
+<<set $CT5 to 0>>
+<<set $ES5 to "Anxious">>
+Lucy Hewitt: Oh, hey boss. Sorry, just watching for a tail. Ever since Barbados, I just can't shake the feeling the Royals are finally going to come for us.
+Lucy Hewitt: This long without a proper fight, it makes me antsy. I'd rather they just get it over with.
+<<if $ID4 is true>>
+Lucy Hewitt: Though I might get one sooner rather than later if Jaime doesn't shut his mouth.
+<<endif>>
+[[A little peace and quiet never hurt anyone.|Diplomatic.5.1.1]]
+[[Whenever they show their faces, we'll be ready|Determined.5.1.1]]
+<<endif>>
+===
+title: Diplomatic.5.1.1
+tags: 
+colorID: 0
+position: -1685,1246
+---
+<<set $ES5 to "Frustrated">>
+Lucy looks frustrated.
+Lucy Hewitt: I guess, but if we don't get some action soon I think I might tear my own hair out. Or gouge my eye out with my sword. Something dramatic. The Captain would like that.
+Lucy Hewitt: Speaking of our dear leader, any luck convincing him on a more aggressive approach?
+[[No, not yet. I'll keep trying though.|Agree.5.1.1]]
+[[You haven't convinced me yet either.|Disagree.5.1.1]]
+===
+title: Determined.5.1.1
+tags: 
+colorID: 0
+position: -1424,1247
+---
+<<set $ES5 to "Pleased">>
+Lucy looks pleased.
+Lucy Hewitt: That's true! They've thrown quite a bit at us already, and we've always survived. Like him or not, the Captain does have a knack for getting us out of tight spots.
+Lucy Hewitt: Speaking of our dear leader, any luck convincing him on a more aggressive approach?
+[[No, not yet. I'll keep trying though.|Agree.5.1.1]]
+[[You haven't convinced me yet either.|Disagree.5.1.1]]
+===
+title: Agree.5.1.1
+tags: 
+colorID: 0
+position: -1697,1641
+---
+<<set $CT5 to $CT5 + 1>>
+Lucy Hewitt: Suppose it couldn't be easy, could it? I get where he's coming from, I do, and I guess it's noble and all that, but we're not in one of his adventure stories. We're at war, and if he doesn't get his head around that, our crew is who's gonna end up biting it. I don't particularly trust Jaime, if I'm being honest, but he's got a point about that.
+Lucy: I appreciate the support on this, Boss. You and me, right?
+[[Always, Lucy.|Tutorial.5.1.1]]
+===
+title: Disagree.5.1.1
+tags: 
+colorID: 0
+position: -1418,1640
+---
+<<set $CT5 to $CT5 - 1>>
+Lucy Hewitt: Guess that'd be too much to hope for, eh? I know it's a risk, believe me I do. But Pierce is kidding himself if he thinks we're really doing anything right now. We're like ticks on a dog, and if they decide to scratch us out, it won't have meant anything.
+Lucy Hewitt: Sorry, I've been talking a bit too much to Jaime I think. He tends to get me riled up about this. Not that I think I'm wrong or nothing! But I get that it would be a big change. Just think about it, alright?
+[[I will.|Tutorial.5.1.1]]
+===
+title: Tutorial.5.1.1
+tags: 
+colorID: 0
+position: -1574,1915
+---
+System: During this conversation, Lucy's Emotional State changed. Depending on your answers in conversation, each character will react to them, changing their mood.
+System: Each Emotional State has advantages and disadvantages, and can affect how a character reacts to certain decisions, and how well they perform on certain missions. Experiment to discover the affects of different emotions.
+<<set $ID5 to true>>
+===
